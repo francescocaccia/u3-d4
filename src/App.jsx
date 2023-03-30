@@ -3,14 +3,14 @@ import "./App.css";
 import MyNav from "./components/MyNav";
 import Welcome from "./components/Welcome";
 import MyFooter from "./components/MyFooter";
-import AllTheBooks from "./components/AllTheBooks";
+import BookList from "./components/BookList";
 
 function App() {
   return (
     <div className="App bg-secondary">
       <MyNav />
       <Welcome />
-      <AllTheBooks />
+      <BookList />
       <MyFooter />
     </div>
   );
